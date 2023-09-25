@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryauto",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "832811b0-8e4f-41ec-86c5-fa06a521cc60",
+		"tenantId": "357bea7e-599c-4b9b-9f10-2fcb3e058f43"
+	}
+}
