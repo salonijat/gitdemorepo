@@ -1,0 +1,14 @@
+{
+    "type": "Microsoft.DataFactory/factories/linkedServices",
+    "name": "MyBlobStorageLinkedService",
+    "apiVersion": "2018-06-01",
+    "properties": {
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "connectionString": {
+                "type": "SecureString",
+                "value": "DefaultEndpointsProtocol=https;AccountName=storagefordataflown;AccountKey=CttsxUeKWAgrhyV3an3SM0O0EjHvW9bpYeAuMqUflzN2aGpQgokP9dMuh+EOvxLIQ+aaBvE59Mnl+AStV+D4Bw==;EndpointSuffix=core.windows.net"
+            }
+        }
+    }
+}
